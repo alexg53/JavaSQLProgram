@@ -1,5 +1,9 @@
 # JavaSQLProgram
 
+.zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
+
+база данных: "people.db"
+
  //javac JavaSQLProgram
 
 java JavaSQLProgram
