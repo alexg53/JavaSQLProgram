@@ -3,6 +3,9 @@
 .zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
 
 база данных: "people.db"
+java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
+
+// set classpath - покажет установленный путь
 
  //javac JavaSQLProgram
 
