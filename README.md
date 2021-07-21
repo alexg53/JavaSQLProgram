@@ -2,8 +2,8 @@
 
 .zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
 
-"people.db" statement: "users"
-"documents.db" statement: "docs"
+"people.db -> table: users";
+"documents.db -> table: docs";
 БД настроены (добавлены таблицы), для настроки использовались people-db.txt и documents-db.txt
 [sqlite.exe] для выхода .quit
 
