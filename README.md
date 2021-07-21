@@ -1,16 +1,15 @@
-не работает (по крайней мере у меня) нужно ставить флаг "-encoding utf-8",
-# JavaSQLProgram
+// не работает (по крайней мере у меня) -> поэтому нужно ставить флаг "-encoding utf-8"
 
 .zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
 
 "people.db" statement: "users"
 "documents.db" statement: "docs"
-
 БД настроены (добавлены таблицы), для настроки использовались people-db.txt и documents-db.txt
 [sqlite.exe] для выхода .quit
 
-java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
+# JavaSQLProgram
 
+java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
 // set classpath - покажет установленный путь
 
  //javac JavaSQLProgram.java
