@@ -1,5 +1,3 @@
-// не работает (по крайней мере у меня) -> поэтому нужно ставить флаг "-encoding utf-8"
-
 .zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
 
 "people.db -> table: users";
@@ -11,12 +9,11 @@
 [sqlite.exe] для выхода .quit
 
 java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
+нужно скачать библиотеку sqlite-jdbc-.. ..jar
 
 // set classpath - покажет установленный путь
 
  //javac JavaSQLProgram.java
- 
-javac -encoding utf-8 JavaSQLProgram.java  // возникали проблемы с кодировкой
 
 java JavaSQLProgram
 
@@ -27,3 +24,5 @@ java JavaSQLProgram
             Enter patronymic: Иванович
             Enter your birthday: 22.04.1962
 
+Если указать мужской пол, то запросит военный билет.
+В конце выполнения программа покажет 2 таблицы: users и docs
