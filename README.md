@@ -7,8 +7,6 @@
 БД настроены (добавлены таблицы), для настроки использовались people-db.txt и documents-db.txt
 [sqlite.exe] для выхода .quit
 
-# JavaSQLProgram
-
 java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
 // set classpath - покажет установленный путь
 
