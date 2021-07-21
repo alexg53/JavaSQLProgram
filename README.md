@@ -3,14 +3,19 @@
 .zipp -> .zip -> распаковать, поместить вместе с JavaSQLProgram
 
 "people.db -> table: users";
+
 "documents.db -> table: docs";
+
 БД настроены (добавлены таблицы), для настроки использовались people-db.txt и documents-db.txt
+
 [sqlite.exe] для выхода .quit
 
 java -classpath "sqlite-jdbc-.. ..jar;." JavaSQLProgram
+
 // set classpath - покажет установленный путь
 
  //javac JavaSQLProgram.java
+ 
 javac -encoding utf-8 JavaSQLProgram.java  // возникали проблемы с кодировкой
 
 java JavaSQLProgram
